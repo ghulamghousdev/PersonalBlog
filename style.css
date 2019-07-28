@@ -11,6 +11,11 @@ body {
     padding: 0;
 }
 
+.container-fluid {
+    margin: auto;
+    max-width: 800px;
+}
+
 .header-min-width {
     min-width: 540px;
 }
