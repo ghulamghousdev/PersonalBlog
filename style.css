@@ -194,3 +194,12 @@ a {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 200;
 }
+
+
+/* media queris */
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: black;
+    }
+}
