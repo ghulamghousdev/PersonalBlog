@@ -1,0 +1,196 @@
+body {
+    font: monospace;
+}
+
+#full_board {
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.row-margin {
+    margin-top: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-min-width {
+    min-width: 540px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "social-media-container-image-icons main-navigation-buttons-home-contact-about";
+}
+
+.social-media-container-image-icons {
+    grid-area: social-media-container-image-icons;
+    justify-self: start;
+}
+
+.main-navigation-buttons-home-contact-about {
+    grid-area: main-navigation-buttons-home-contact-about;
+    justify-self: end;
+}
+
+@media screen and (min-width:736px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 10px auto 1fr 10px;
+        grid-template-rows: 1fr;
+        grid-template-areas: ". social-media-container-image-icons main-navigation-buttons-home-contact-about .";
+    }
+}
+
+.main-navigation-bar {
+    list-style: none;
+    margin-top: 38px;
+}
+
+.main-navigation-bar li {
+    display: inline-block;
+}
+
+.main-navigation-bar li a {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    padding: 0.3125rem 1.875rem;
+    text-decoration: none;
+}
+
+.main-navigation-bar li a:active {
+    color: #666;
+}
+
+.main-navigation-bar li a:hover {
+    color: #666;
+}
+
+.pic img {
+    float: left;
+    width: 5.7rem;
+    height: 5.7rem;
+    border-radius: 50%;
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.name {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.name h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 1.875rem;
+    color: #666;
+    font-weight: 590;
+    color: #565656;
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-media-container {
+    margin-left: 1.7rem;
+    margin-top: 40px;
+    height: 20px;
+    color: white;
+}
+
+.social-media {
+    position: absolute;
+    margin: 0px auto;
+    padding: 0px auto;
+    display: inline-block;
+}
+
+.fa {
+    color: black;
+    float: left;
+    margin-top: 0rem;
+    margin-right: 10px;
+}
+
+.introduction {
+    float: bottom;
+    position: absolute;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+.hey {
+    margin-top: 25.5rem;
+    width: 100%;
+    height: 20rem;
+    position: center;
+}
+
+.introduction h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: normal;
+}
+
+.where-to-contact {
+    padding-top: 40px;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: normal;
+}
+
+.first-post-index {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: center;
+    position: absolute;
+}
+
+.setting-margins {
+    float: bottom;
+    margin-top: 420px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 230px;
+}
+
+.heading-of-article {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.content-of-blog {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
