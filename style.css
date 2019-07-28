@@ -2,18 +2,6 @@ body {
     font: monospace;
 }
 
-#full_board {
-    background-color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
 .row-margin {
     margin-top: 10px;
 }
@@ -42,15 +30,6 @@ body {
 .main-navigation-buttons-home-contact-about {
     grid-area: main-navigation-buttons-home-contact-about;
     justify-self: end;
-}
-
-@media screen and (min-width:736px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 10px auto 1fr 10px;
-        grid-template-rows: 1fr;
-        grid-template-areas: ". social-media-container-image-icons main-navigation-buttons-home-contact-about .";
-    }
 }
 
 .main-navigation-bar {
@@ -197,9 +176,3 @@ a {
 
 
 /* media queris */
-
-@media screen and (max-width:1500px) {
-    body {
-        background-color: black;
-    }
-}
