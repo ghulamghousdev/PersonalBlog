@@ -29,9 +29,14 @@ header {
     justify-self: end;
 }
 
+.justifying-position-of-nav-bar {
+    float: right;
+    justify-self: end;
+}
+
 .main-navigation-bar {
     list-style: none;
-    padding-top: 38px;
+    padding-top: 28px;
 }
 
 .main-navigation-bar li {
@@ -60,7 +65,6 @@ header {
     width: 5.7rem;
     height: 5.7rem;
     border-radius: 50%;
-    margin-left: 1.25rem;
     margin-top: 1.25rem;
 }
 
@@ -102,6 +106,10 @@ a {
     display: inline-block;
 }
 
+.social-media-container ul a {
+    text-decoration: none;
+}
+
 .fa {
     color: black;
     float: left;
@@ -128,6 +136,11 @@ a {
     font-family: 'Times New Roman', Times, serif;
     color: black;
     font-weight: bold;
+}
+
+.custom-padding p {
+    padding-top: 30px;
+    font-size: 17px;
 }
 
 .content p {
