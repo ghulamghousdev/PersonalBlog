@@ -15,6 +15,7 @@ h5 {
 .setting-margins-first-post {
     width: 100%;
     position: center;
+    padding-top: 50px;
 }
 .setting-margins-first-post h1 {
     font-family: 'Anton', sans-serif;
