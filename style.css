@@ -2,22 +2,14 @@ body {
     font: monospace;
 }
 
-.row-margin {
-    margin-top: 10px;
+header {
+    padding-top: 10px;
+    min-width: 540px;
 }
 
 * {
     margin: 0;
     padding: 0;
-}
-
-.container-fluid {
-    margin: auto;
-    max-width: 800px;
-}
-
-.header-min-width {
-    min-width: 540px;
 }
 
 .grid {
@@ -39,7 +31,7 @@ body {
 
 .main-navigation-bar {
     list-style: none;
-    margin-top: 38px;
+    padding-top: 38px;
 }
 
 .main-navigation-bar li {
