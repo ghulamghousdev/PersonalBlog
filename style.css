@@ -171,16 +171,6 @@ a {
     font-weight: normal;
 }
 
-@media screen and (max-width:792px) {
-    .where-to-contact {
-        padding-top: 40px;
-        font-size: 36px;
-        font-family: 'Times New Roman', Times, serif;
-        color: black;
-        font-weight: normal;
-    }
-}
-
 .first-post-index {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
